@@ -61,7 +61,7 @@ const client = ['browse', 'main'].map(entryName => {
         limit: 5 * 1024,
         publicPath: '/_client/'
       }),
-      compiler()
+      // compiler()
     ]
   };
 });

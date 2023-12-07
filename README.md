@@ -1,14 +1,6 @@
-# UNPKG &middot; [![Travis][build-badge]][build]
-
-[build-badge]: https://img.shields.io/travis/mjackson/unpkg/master.svg?style=flat-square
-[build]: https://travis-ci.org/mjackson/unpkg
-
-[UNPKG](https://unpkg.com) is a fast, global [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) for everything on [npm](https://www.npmjs.com/).
-
-### Documentation
-
-Please visit [the UNPKG website](https://unpkg.com) to learn more about how to use it.
-
-### Sponsors
-
-Our sponsors and backers are listed [in SPONSORS.md](SPONSORS.md).
+#### 本地搭建unpkg服务，之前的版本太老，执行的过程中有很多问题，解决问题后重新建库存放
+##### 1. node版本为 V12.22.12
+##### 2. npm run build会执行rollup -c 命令，全局安装rollup
+##### 3. compiler()检查js代码，一堆语法报错，移除
+##### 4. 私有npm地址需要配置，增加默认配置`
+##### 5. 增加npm run start命令
